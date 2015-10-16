@@ -68,6 +68,9 @@ Cache::config('default', array('engine' => 'File'));
  */
 
 CakePlugin::load('DebugKit');
+CakePlugin::load('Users', array(
+	'routes' => true
+));
 
 /**
  * To prefer app translation over plugin translation, you can set
@@ -114,3 +117,11 @@ CakeLog::config('error', array(
 Configure::write('Session', array(
 	'defaults' => 'database'
 ));
+
+
+Configure::write('Users.roles', array(
+	'admin' => 'Admin',
+	'registered' => 'Registered'
+));
+Configure::write('Users.defaultRole', 'user_registered');
+Configure::write('Users.allowRegistration', true);
