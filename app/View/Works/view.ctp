@@ -16,11 +16,6 @@
 			<?php echo h($work['Work']['work']); ?>
 			&nbsp;
 		</dd>
-		<dt><?php echo __('Timestamp'); ?></dt>
-		<dd>
-			<?php echo h($work['Work']['timestamp']); ?>
-			&nbsp;
-		</dd>
 		<dt><?php echo __('Counter'); ?></dt>
 		<dd>
 			<?php echo h($work['Work']['counter']); ?>
@@ -34,6 +29,11 @@
 		<dt><?php echo __('Alive'); ?></dt>
 		<dd>
 			<?php echo h($work['Work']['alive']); ?>
+			&nbsp;
+		</dd>
+		<dt><?php echo __('Timestamp'); ?></dt>
+		<dd>
+			<?php echo h($work['Work']['timestamp']); ?>
 			&nbsp;
 		</dd>
 	</dl>

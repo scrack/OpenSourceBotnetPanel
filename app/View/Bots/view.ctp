@@ -11,11 +11,6 @@
 			<?php echo h($bot['Bot']['name']); ?>
 			&nbsp;
 		</dd>
-		<dt><?php echo __('Timestamp'); ?></dt>
-		<dd>
-			<?php echo h($bot['Bot']['timestamp']); ?>
-			&nbsp;
-		</dd>
 		<dt><?php echo __('Ip'); ?></dt>
 		<dd>
 			<?php echo h($bot['Bot']['ip']); ?>
@@ -24,6 +19,16 @@
 		<dt><?php echo __('Botshop'); ?></dt>
 		<dd>
 			<?php echo h($bot['Bot']['botshop']); ?>
+			&nbsp;
+		</dd>
+		<dt><?php echo __('Uuid'); ?></dt>
+		<dd>
+			<?php echo h($bot['Bot']['uuid']); ?>
+			&nbsp;
+		</dd>
+		<dt><?php echo __('Timestamp'); ?></dt>
+		<dd>
+			<?php echo h($bot['Bot']['timestamp']); ?>
 			&nbsp;
 		</dd>
 	</dl>

@@ -4,9 +4,10 @@
 		<legend><?php echo __('Add Bot'); ?></legend>
 	<?php
 		echo $this->Form->input('name');
-		echo $this->Form->input('timestamp');
 		echo $this->Form->input('ip');
 		echo $this->Form->input('botshop');
+		echo $this->Form->input('uuid');
+		echo $this->Form->input('timestamp');
 	?>
 	</fieldset>
 <?php echo $this->Form->end(__('Submit')); ?>

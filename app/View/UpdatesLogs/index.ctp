@@ -5,8 +5,8 @@
 	<tr>
 			<th><?php echo $this->Paginator->sort('id'); ?></th>
 			<th><?php echo $this->Paginator->sort('update_id'); ?></th>
-			<th><?php echo $this->Paginator->sort('timestamp'); ?></th>
 			<th><?php echo $this->Paginator->sort('uuid'); ?></th>
+			<th><?php echo $this->Paginator->sort('timestamp'); ?></th>
 			<th class="actions"><?php echo __('Actions'); ?></th>
 	</tr>
 	</thead>
@@ -17,8 +17,8 @@
 		<td>
 			<?php echo $this->Html->link($updatesLog['Update']['name'], array('controller' => 'updates', 'action' => 'view', $updatesLog['Update']['id'])); ?>
 		</td>
-		<td><?php echo h($updatesLog['UpdatesLog']['timestamp']); ?>&nbsp;</td>
 		<td><?php echo h($updatesLog['UpdatesLog']['uuid']); ?>&nbsp;</td>
+		<td><?php echo h($updatesLog['UpdatesLog']['timestamp']); ?>&nbsp;</td>
 		<td class="actions">
 			<?php echo $this->Html->link(__('View'), array('action' => 'view', $updatesLog['UpdatesLog']['id'])); ?>
 			<?php echo $this->Html->link(__('Edit'), array('action' => 'edit', $updatesLog['UpdatesLog']['id'])); ?>

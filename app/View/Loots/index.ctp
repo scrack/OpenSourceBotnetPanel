@@ -6,8 +6,8 @@
 			<th><?php echo $this->Paginator->sort('id'); ?></th>
 			<th><?php echo $this->Paginator->sort('name'); ?></th>
 			<th><?php echo $this->Paginator->sort('data'); ?></th>
-			<th><?php echo $this->Paginator->sort('timestamp'); ?></th>
 			<th><?php echo $this->Paginator->sort('uuid'); ?></th>
+			<th><?php echo $this->Paginator->sort('timestamp'); ?></th>
 			<th class="actions"><?php echo __('Actions'); ?></th>
 	</tr>
 	</thead>
@@ -17,8 +17,8 @@
 		<td><?php echo h($loot['Loot']['id']); ?>&nbsp;</td>
 		<td><?php echo h($loot['Loot']['name']); ?>&nbsp;</td>
 		<td><?php echo h($loot['Loot']['data']); ?>&nbsp;</td>
-		<td><?php echo h($loot['Loot']['timestamp']); ?>&nbsp;</td>
 		<td><?php echo h($loot['Loot']['uuid']); ?>&nbsp;</td>
+		<td><?php echo h($loot['Loot']['timestamp']); ?>&nbsp;</td>
 		<td class="actions">
 			<?php echo $this->Html->link(__('View'), array('action' => 'view', $loot['Loot']['id'])); ?>
 			<?php echo $this->Html->link(__('Edit'), array('action' => 'edit', $loot['Loot']['id'])); ?>

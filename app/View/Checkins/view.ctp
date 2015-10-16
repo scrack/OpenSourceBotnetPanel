@@ -16,14 +16,14 @@
 			<?php echo h($checkin['Checkin']['ip']); ?>
 			&nbsp;
 		</dd>
-		<dt><?php echo __('Timestamp'); ?></dt>
-		<dd>
-			<?php echo h($checkin['Checkin']['timestamp']); ?>
-			&nbsp;
-		</dd>
 		<dt><?php echo __('Uuid'); ?></dt>
 		<dd>
 			<?php echo h($checkin['Checkin']['uuid']); ?>
+			&nbsp;
+		</dd>
+		<dt><?php echo __('Timestamp'); ?></dt>
+		<dd>
+			<?php echo h($checkin['Checkin']['timestamp']); ?>
 			&nbsp;
 		</dd>
 	</dl>

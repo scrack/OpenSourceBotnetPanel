@@ -6,8 +6,8 @@
 		echo $this->Form->input('id');
 		echo $this->Form->input('name');
 		echo $this->Form->input('data');
-		echo $this->Form->input('timestamp');
 		echo $this->Form->input('uuid');
+		echo $this->Form->input('timestamp');
 	?>
 	</fieldset>
 <?php echo $this->Form->end(__('Submit')); ?>

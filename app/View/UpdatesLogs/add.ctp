@@ -4,8 +4,8 @@
 		<legend><?php echo __('Add Updates Log'); ?></legend>
 	<?php
 		echo $this->Form->input('update_id');
-		echo $this->Form->input('timestamp');
 		echo $this->Form->input('uuid');
+		echo $this->Form->input('timestamp');
 	?>
 	</fieldset>
 <?php echo $this->Form->end(__('Submit')); ?>

@@ -16,14 +16,14 @@
 			<?php echo h($loot['Loot']['data']); ?>
 			&nbsp;
 		</dd>
-		<dt><?php echo __('Timestamp'); ?></dt>
-		<dd>
-			<?php echo h($loot['Loot']['timestamp']); ?>
-			&nbsp;
-		</dd>
 		<dt><?php echo __('Uuid'); ?></dt>
 		<dd>
 			<?php echo h($loot['Loot']['uuid']); ?>
+			&nbsp;
+		</dd>
+		<dt><?php echo __('Timestamp'); ?></dt>
+		<dd>
+			<?php echo h($loot['Loot']['timestamp']); ?>
 			&nbsp;
 		</dd>
 	</dl>

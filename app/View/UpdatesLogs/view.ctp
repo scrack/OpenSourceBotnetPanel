@@ -11,14 +11,14 @@
 			<?php echo $this->Html->link($updatesLog['Update']['name'], array('controller' => 'updates', 'action' => 'view', $updatesLog['Update']['id'])); ?>
 			&nbsp;
 		</dd>
-		<dt><?php echo __('Timestamp'); ?></dt>
-		<dd>
-			<?php echo h($updatesLog['UpdatesLog']['timestamp']); ?>
-			&nbsp;
-		</dd>
 		<dt><?php echo __('Uuid'); ?></dt>
 		<dd>
 			<?php echo h($updatesLog['UpdatesLog']['uuid']); ?>
+			&nbsp;
+		</dd>
+		<dt><?php echo __('Timestamp'); ?></dt>
+		<dd>
+			<?php echo h($updatesLog['UpdatesLog']['timestamp']); ?>
 			&nbsp;
 		</dd>
 	</dl>

@@ -5,9 +5,10 @@
 	<tr>
 			<th><?php echo $this->Paginator->sort('id'); ?></th>
 			<th><?php echo $this->Paginator->sort('name'); ?></th>
-			<th><?php echo $this->Paginator->sort('timestamp'); ?></th>
 			<th><?php echo $this->Paginator->sort('ip'); ?></th>
 			<th><?php echo $this->Paginator->sort('botshop'); ?></th>
+			<th><?php echo $this->Paginator->sort('uuid'); ?></th>
+			<th><?php echo $this->Paginator->sort('timestamp'); ?></th>
 			<th class="actions"><?php echo __('Actions'); ?></th>
 	</tr>
 	</thead>
@@ -16,9 +17,10 @@
 	<tr>
 		<td><?php echo h($bot['Bot']['id']); ?>&nbsp;</td>
 		<td><?php echo h($bot['Bot']['name']); ?>&nbsp;</td>
-		<td><?php echo h($bot['Bot']['timestamp']); ?>&nbsp;</td>
 		<td><?php echo h($bot['Bot']['ip']); ?>&nbsp;</td>
 		<td><?php echo h($bot['Bot']['botshop']); ?>&nbsp;</td>
+		<td><?php echo h($bot['Bot']['uuid']); ?>&nbsp;</td>
+		<td><?php echo h($bot['Bot']['timestamp']); ?>&nbsp;</td>
 		<td class="actions">
 			<?php echo $this->Html->link(__('View'), array('action' => 'view', $bot['Bot']['id'])); ?>
 			<?php echo $this->Html->link(__('Edit'), array('action' => 'edit', $bot['Bot']['id'])); ?>
