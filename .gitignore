@@ -1,2 +1,4 @@
+app/Config/database.php
 .AppleDouble/
 legacy/
+app/tmp/*
